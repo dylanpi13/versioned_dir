@@ -16,3 +16,5 @@ Git Cheat Sheet
 9. git rm FILENAME: Remove the file `FILENAME` from the working directory (it still exists in the repository). Will only work if the file is tracked by  git and doesn't have any changes. Use `-f` to force removal of files. 
 
 10. git push: Push versions that are saved in the local repository (.git folder) so they are backed up to a remote repository (.git folder)
+
+11. git clone URL: Clone (download) a local copy of the remote repository that is available at the specified URL. You will only be allowed to push to that repository if you have permission. If not, then fork the repository into your  own account before cloning. 
